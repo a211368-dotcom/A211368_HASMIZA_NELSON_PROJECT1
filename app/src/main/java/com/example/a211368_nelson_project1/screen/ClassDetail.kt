@@ -70,7 +70,7 @@ fun ClassDetail(
             .padding(20.dp)
     ) {
 
-        // 🔙 HEADER
+        // HEADER
         Row(
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -102,7 +102,7 @@ fun ClassDetail(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // 📘 CLASS CARD (modern elevated style)
+        // CLASS CARD (modern elevated style)
         Card(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(28.dp),
@@ -144,7 +144,7 @@ fun ClassDetail(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // 🧠 DESCRIPTION CARD
+        // DESCRIPTION CARD
         SectionTitle("About Class")
 
         Card(
@@ -260,7 +260,7 @@ fun ExpandableCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
 
-                // 🎨 accent bar (professional touch)
+                // accent bar (professional touch)
                 Box(
                     modifier = Modifier
                         .size(width = 6.dp, height = 22.dp)

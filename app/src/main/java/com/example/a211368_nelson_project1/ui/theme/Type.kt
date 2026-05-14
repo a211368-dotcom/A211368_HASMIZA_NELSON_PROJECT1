@@ -7,7 +7,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
 import com.example.a211368_nelson_project1.R
 
-// 🌸 Fonts
+// Fonts
 val Poppins = FontFamily(
     Font(R.font.poppins_regular),
     Font(R.font.poppins_bold)
@@ -29,7 +29,7 @@ val Montserrat = FontFamily(
 
 
 
-// ✨ Typography System
+// Typography System
 val Typography = Typography(
     displayLarge = TextStyle(
         fontFamily = AbrilFatFace,
